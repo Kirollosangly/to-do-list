@@ -1,27 +1,36 @@
-# ToDoList
+## To Do List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+# Description
+To Do List is a web application built with Angular that helps users manage their tasks efficiently. It consists of two main pages: the Home page and the Schedule Task page. The Home page features a visually appealing notebook design that, upon hovering, opens slightly and provides a navigation arrow to the Schedule Task page. The Schedule Task page allows users to add, edit, and delete tasks, with a convenient popup displaying task details upon clicking on a task.
 
-## Development server
+# Features & Technologies Used
+* Two main pages with Angular routing: Home and Schedule Task
+* Responsive Design The application is fully responsive and works well on different devices.
+* Visually appealing notebook design on the Home page
+* Form for adding tasks with title, description, and deadline
+* Display of tasks with title, deadline, and action buttons (mark done, edit, delete)
+* Popup displaying task details upon clicking on a task
+* Data communication between components using Angular @Input and @Output
+* Utilizes Angular services for centralized data management
+* Dependencies include Tailwind CSS, Flowbite libraries, and native CSS
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Installation
+* Clone this repository: git clone <repository-url>
+* Navigate to the project directory: cd to-do-list
+* Install dependencies: npm install
+* Install json-server globally: npm install -g json-server
+* Navigate to json-server folder in terminal
+* Run json-server: json-server --watch db.json
+* Return to the project directory: cd to-do-list
+* Run the application: ng serve --open
 
-## Code scaffolding
+# License
+All rights reserved for developer Kirollos Angly.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Demo
+View demo screenshots and video
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Contact
+Developer: Kirollos Anglyv
+Phone: +201208293014
+Email: kirollos.angly@outlook.com

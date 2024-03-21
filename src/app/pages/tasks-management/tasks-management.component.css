@@ -1,0 +1,21 @@
+.tasks-section {
+    min-height: 90vh;
+    background-image: linear-gradient(to right, #71C7E2, #E88CD9);
+}
+
+.glassEffect {
+    position: relative;
+    z-index: 1;
+}
+
+.glassEffect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    z-index: -1;
+}

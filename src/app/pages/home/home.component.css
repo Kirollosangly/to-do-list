@@ -1,0 +1,25 @@
+.mainSection {
+    min-height: 90vh;
+}
+
+.openNote {
+    bottom: 0;
+    right: 0;
+    transform: translate(100%, 100%);
+    transition: all .8s ease;
+}
+
+.noteHover:hover .openNote {
+    transform: translate(45%, 45%) rotate(-4deg);
+}
+
+.goToButton {
+    opacity: 0;
+    bottom: 12px;
+    right: 12px;
+    transition: all .3s ease;
+}
+
+.noteHover:hover .goToButton {
+    opacity: 1;
+}
