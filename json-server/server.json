@@ -1,3 +1,20 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "027b",
+      "task_title": "task 1",
+      "task_description": "task 1 description\n",
+      "task_deadline": "2025-05-05",
+      "compeleted": false,
+      "archived": null
+    },
+    {
+      "id": "b5ce",
+      "task_title": "task 2",
+      "task_description": "task 2 description text...etc ",
+      "task_deadline": "2026-06-06",
+      "compeleted": null,
+      "archived": null
+    }
+  ]
 }
